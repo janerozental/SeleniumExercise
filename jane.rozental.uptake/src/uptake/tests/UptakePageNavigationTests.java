@@ -12,11 +12,11 @@ public class UptakePageNavigationTests {
 		UptakeAboutUsPage uptakeAboutPage = new UptakeAboutUsPage();
 
 		uptakeFrontPage.openPage();
-		uptakeFrontPage.MaximizeWindow();
+		uptakeFrontPage.maximizeWindow();
 		uptakeFrontPage.verifyPage();
 		uptakeFrontPage.clickAboutUs();
 		uptakeAboutPage.verifyPage();
-		uptakeAboutPage.CloseBrowserWindow();
+		uptakeAboutPage.closeBrowserWindow();
 		
 	}
 

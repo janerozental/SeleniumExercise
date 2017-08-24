@@ -15,12 +15,12 @@ public class PageBase {
 		this.wdWait = new WebDriverWait(driver, 5);
 	}
 	
-	public void CloseBrowserWindow()
+	public void closeBrowserWindow()
 	{
 		driver.quit();
 	}
 	
-	public void MaximizeWindow()
+	public void maximizeWindow()
 	{
 		driver.manage().window().maximize();
 	}
